@@ -1,0 +1,103 @@
+.page {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.header h2 {
+  margin: 0.35rem 0 0;
+}
+
+.sectionLabel {
+  margin: 0;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  color: #7dd3fc;
+  font-size: 0.76rem;
+}
+
+.formCard {
+  padding: 1.6rem;
+  border-radius: 28px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.field {
+  display: grid;
+  gap: 0.55rem;
+  color: var(--text);
+}
+
+.field span {
+  font-weight: 600;
+}
+
+.field input,
+.field select {
+  width: 100%;
+  padding: 0.95rem 1rem;
+  border-radius: 18px;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+  color: var(--text);
+}
+
+.fullWidth {
+  grid-column: 1 / -1;
+}
+
+.toggleRow {
+  grid-column: 1 / -1;
+  display: flex;
+  gap: 2rem;
+  padding: 0.5rem 0;
+  flex-wrap: wrap;
+}
+
+.previewImage {
+  margin-top: 0.85rem;
+  width: min(100%, 260px);
+  border-radius: 20px;
+  border: 1px solid var(--border);
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.primaryButton,
+.secondaryButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.7rem;
+  padding: 0.95rem 1.2rem;
+  border-radius: 16px;
+  border: 0;
+  font-weight: 700;
+}
+
+.primaryButton {
+  background: linear-gradient(135deg, #fbbf24, #f59e0b);
+  color: #0f172a;
+}
+
+.secondaryButton {
+  background: var(--surface-soft);
+  color: var(--text);
+  border: 1px solid var(--border);
+}
+
+@media (max-width: 850px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}

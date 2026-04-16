@@ -1,0 +1,278 @@
+{
+  "users": [
+    {
+      "id": "f2a035c8-c84d-4341-8e9e-8dade7bed9cd",
+      "name": "Quiz Tester",
+      "email": "tester1776058089747@quizsphere.dev",
+      "passwordHash": "$2b$10$dxCHuTDbGEnuAcHKtnC36OoKqU/8etfTK1PZD0zymzMV128kgWvMu",
+      "createdAt": "2026-04-13T05:28:09.993Z"
+    },
+    {
+      "id": "2a429280-c1e8-404b-8475-355190636695",
+      "name": "Sunidhi Ticroloiya",
+      "email": "sunidhi.lup@gmail.com",
+      "passwordHash": "$2b$10$iOE0Rz4RzkqwBffU.sWx..nAR3CfVAqtrmJHrd66Szl0vCHOYBGm2",
+      "createdAt": "2026-04-13T06:37:07.853Z"
+    }
+  ],
+  "quizzes": [
+    {
+      "id": "quiz-logic-mastery",
+      "category": "Logical Reasoning",
+      "title": "Logic Mastery Sprint",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=900&q=80",
+      "timerEnabled": true,
+      "minPoints": 60,
+      "description": "<p>Strengthen pattern recognition, sequencing, and deduction with a fast-paced quiz designed for interview preparation.</p>",
+      "active": true,
+      "isEnabled": true,
+      "createdAt": "2026-04-10T08:30:00.000Z",
+      "questions": [
+        {
+          "id": "logic-1",
+          "section": "Logical",
+          "prompt": "Which number should come next in the series 3, 6, 12, 24, ?",
+          "options": [
+            "30",
+            "36",
+            "48",
+            "60"
+          ],
+          "answer": "48"
+        },
+        {
+          "id": "logic-2",
+          "section": "Aptitude",
+          "prompt": "A train covers 120 km in 2 hours. What is its average speed?",
+          "options": [
+            "40 km/h",
+            "50 km/h",
+            "60 km/h",
+            "70 km/h"
+          ],
+          "answer": "60 km/h"
+        },
+        {
+          "id": "logic-3",
+          "section": "Reasoning",
+          "prompt": "If all tablets are gadgets and some gadgets are smart, which statement is definitely true?",
+          "options": [
+            "All gadgets are tablets",
+            "Some tablets are smart",
+            "Some smart things are gadgets",
+            "No smart thing is a tablet"
+          ],
+          "answer": "Some smart things are gadgets"
+        },
+        {
+          "id": "logic-4",
+          "section": "Logical",
+          "prompt": "Find the odd one out: Triangle, Square, Circle, Rectangle",
+          "options": [
+            "Triangle",
+            "Square",
+            "Circle",
+            "Rectangle"
+          ],
+          "answer": "Circle"
+        },
+        {
+          "id": "logic-5",
+          "section": "Aptitude",
+          "prompt": "What is 15% of 240?",
+          "options": [
+            "24",
+            "30",
+            "36",
+            "40"
+          ],
+          "answer": "36"
+        },
+        {
+          "id": "logic-6",
+          "section": "Reasoning",
+          "prompt": "If code means 1234 and mode means 5234, what digit represents m?",
+          "options": [
+            "1",
+            "2",
+            "4",
+            "5"
+          ],
+          "answer": "5"
+        }
+      ]
+    },
+    {
+      "id": "quiz-data-decoder",
+      "category": "Data Interpretation",
+      "title": "Data Decoder Challenge",
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=900&q=80",
+      "timerEnabled": true,
+      "minPoints": 50,
+      "description": "<p>Practice charts, percentages, and quick calculations through realistic business scenarios and numerical puzzles.</p>",
+      "active": true,
+      "isEnabled": true,
+      "createdAt": "2026-04-11T09:45:00.000Z",
+      "questions": [
+        {
+          "id": "data-1",
+          "section": "Logical",
+          "prompt": "A bar chart shows sales of 10, 20, and 30 units. What is the median value?",
+          "options": [
+            "10",
+            "15",
+            "20",
+            "30"
+          ],
+          "answer": "20"
+        },
+        {
+          "id": "data-2",
+          "section": "Aptitude",
+          "prompt": "A product costs ₹800 after a 20% discount. What was the original price?",
+          "options": [
+            "₹900",
+            "₹960",
+            "₹1000",
+            "₹1200"
+          ],
+          "answer": "₹1000"
+        },
+        {
+          "id": "data-3",
+          "section": "Reasoning",
+          "prompt": "If Team A scored more than Team B, and Team B scored more than Team C, who scored the least?",
+          "options": [
+            "Team A",
+            "Team B",
+            "Team C",
+            "Cannot be determined"
+          ],
+          "answer": "Team C"
+        },
+        {
+          "id": "data-4",
+          "section": "Logical",
+          "prompt": "Which value best completes the pattern 5, 10, 20, 40, ?",
+          "options": [
+            "45",
+            "60",
+            "80",
+            "90"
+          ],
+          "answer": "80"
+        },
+        {
+          "id": "data-5",
+          "section": "Aptitude",
+          "prompt": "If a class has 40 students and 25% are absent, how many are present?",
+          "options": [
+            "10",
+            "20",
+            "25",
+            "30"
+          ],
+          "answer": "30"
+        },
+        {
+          "id": "data-6",
+          "section": "Reasoning",
+          "prompt": "Select the statement that follows from: Some analysts are managers.",
+          "options": [
+            "All analysts are managers",
+            "Some managers are analysts",
+            "No analyst is a manager",
+            "All managers are analysts"
+          ],
+          "answer": "Some managers are analysts"
+        }
+      ]
+    },
+    {
+      "id": "quiz-react-brain",
+      "category": "Programming",
+      "title": "React Brain Booster",
+      "image": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=900&q=80",
+      "timerEnabled": false,
+      "minPoints": 70,
+      "description": "<p>Blend frontend concepts, debugging logic, and technical reasoning in a developer-focused quiz experience.</p>",
+      "active": true,
+      "isEnabled": true,
+      "createdAt": "2026-04-12T07:10:00.000Z",
+      "questions": [
+        {
+          "id": "react-1",
+          "section": "Logical",
+          "prompt": "Which hook is used to store local component state in React?",
+          "options": [
+            "useMemo",
+            "useEffect",
+            "useState",
+            "useRef"
+          ],
+          "answer": "useState"
+        },
+        {
+          "id": "react-2",
+          "section": "Aptitude",
+          "prompt": "A timer starts at 300 seconds and counts down every second. How many minutes is that?",
+          "options": [
+            "3",
+            "4",
+            "5",
+            "6"
+          ],
+          "answer": "5"
+        },
+        {
+          "id": "react-3",
+          "section": "Reasoning",
+          "prompt": "If a component rerenders when context value changes, which statement is most accurate?",
+          "options": [
+            "Context never triggers rerenders",
+            "Only the provider rerenders",
+            "Consumers using the changed value rerender",
+            "Rerenders happen only with class components"
+          ],
+          "answer": "Consumers using the changed value rerender"
+        },
+        {
+          "id": "react-4",
+          "section": "Logical",
+          "prompt": "Which option best describes JSX?",
+          "options": [
+            "A database query language",
+            "A syntax extension for JavaScript",
+            "A CSS preprocessor",
+            "A backend framework"
+          ],
+          "answer": "A syntax extension for JavaScript"
+        },
+        {
+          "id": "react-5",
+          "section": "Aptitude",
+          "prompt": "If 3 quizzes each contain 6 questions, how many total questions are there?",
+          "options": [
+            "9",
+            "12",
+            "18",
+            "24"
+          ],
+          "answer": "18"
+        },
+        {
+          "id": "react-6",
+          "section": "Reasoning",
+          "prompt": "What is the best reason to keep API logic inside service files?",
+          "options": [
+            "It slows down routing",
+            "It separates concerns and improves reuse",
+            "It removes the need for state",
+            "It prevents components from rendering"
+          ],
+          "answer": "It separates concerns and improves reuse"
+        }
+      ]
+    }
+  ]
+}

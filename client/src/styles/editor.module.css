@@ -1,0 +1,36 @@
+.editorWrap {
+  border-radius: 22px;
+  border: 1px solid var(--border);
+  background: var(--surface-soft);
+  overflow: hidden;
+}
+
+.toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  padding: 0.9rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.toolbarButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  border: 0;
+  border-radius: 12px;
+  padding: 0.6rem 0.8rem;
+  background: rgba(59, 130, 246, 0.12);
+  color: var(--text);
+}
+
+.editor {
+  min-height: 220px;
+  padding: 1rem;
+  color: var(--text);
+}
+
+.editor:empty::before {
+  content: attr(data-placeholder);
+  color: var(--text-soft);
+}

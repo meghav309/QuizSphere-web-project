@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "chrome",
+            "name": "http://10.150.44.217:3000/index.html",
+            "request": "launch",
+            "url": "http://10.150.44.217:3000/index.html"
+        }
+    ]
+}

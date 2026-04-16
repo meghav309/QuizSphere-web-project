@@ -1,0 +1,33 @@
+.switchField {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.85rem;
+  color: var(--text);
+  font-weight: 600;
+}
+
+.switch {
+  width: 56px;
+  height: 32px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: rgba(148, 163, 184, 0.18);
+  padding: 4px;
+  display: flex;
+  align-items: center;
+  transition: all 0.25s ease;
+}
+
+.switchActive {
+  background: linear-gradient(135deg, var(--primary), #22c55e);
+  border-color: transparent;
+  justify-content: flex-end;
+}
+
+.switchThumb {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 8px 18px rgba(15, 23, 42, 0.2);
+}

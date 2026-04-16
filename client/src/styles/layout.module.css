@@ -1,0 +1,165 @@
+.shell {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 290px 1fr;
+}
+
+.sidebar {
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  padding: 1.5rem;
+  border-right: 1px solid var(--border);
+  background: rgba(2, 8, 23, 0.58);
+  backdrop-filter: blur(24px);
+  display: flex;
+  flex-direction: column;
+  gap: 1.4rem;
+}
+
+.brandCard {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+  border-radius: 24px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.brandCard h2,
+.headerTitle {
+  margin: 0;
+}
+
+.brandCard p,
+.headerEyebrow,
+.profileBadge p {
+  margin: 0.15rem 0 0;
+  color: var(--text-soft);
+}
+
+.brandLogo {
+  width: 58px;
+  height: 58px;
+  border-radius: 20px;
+}
+
+.nav {
+  display: grid;
+  gap: 0.65rem;
+}
+
+.navItem,
+.logoutButton {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.95rem 1rem;
+  border-radius: 18px;
+  border: 1px solid transparent;
+  color: var(--text-soft);
+  background: transparent;
+  transition: all 0.25s ease;
+}
+
+.navItem:hover,
+.logoutButton:hover,
+.navItemActive {
+  border-color: var(--border);
+  background: rgba(59, 130, 246, 0.12);
+  color: var(--text);
+}
+
+.logoutButton {
+  margin-top: auto;
+  color: #fca5a5;
+}
+
+.contentWrap {
+  padding: 1.5rem;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  gap: 1.5rem;
+  padding: 1.5rem 1.75rem;
+  margin-bottom: 1.5rem;
+  border: 1px solid var(--border);
+  border-radius: 28px;
+  background: var(--surface);
+  box-shadow: var(--shadow);
+}
+
+.headerEyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  font-size: 0.78rem;
+}
+
+.headerTitle {
+  font-size: clamp(1.65rem, 2vw, 2.55rem);
+  line-height: 1.15;
+}
+
+.headerActions {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.themeButton {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 0.85rem 1.1rem;
+  background: var(--surface-soft);
+  color: var(--text);
+}
+
+.profileBadge {
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+  padding: 0.45rem 0.6rem;
+  border-radius: 999px;
+  background: rgba(59, 130, 246, 0.12);
+}
+
+.profileAvatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, var(--primary), #22d3ee);
+  color: white;
+  font-weight: 700;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 1100px) {
+  .shell {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    height: auto;
+  }
+
+  .header {
+    flex-direction: column;
+  }
+
+  .headerActions {
+    flex-wrap: wrap;
+  }
+}
